@@ -9,8 +9,8 @@ export default function Navbar() {
 
     const navLinks = [
         { name: 'Home', href: '#home' },
-        { name: 'Create', href: '#create' },
-        { name: 'Designs', href: '#designs' },
+        { name: 'About', href: '#about' },
+        { name: 'How It Works', href: '#how-it-works' },
     ];
 
     return (
@@ -20,7 +20,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <div className="flex items-center">
                         <a href="#home" className="flex items-center space-x-2">
-                            <div className="w-10 h-10 bg-[#0770e3] rounded-lg flex items-center justify-center">
+                            <div className="w-10 h-10 bg-[#f97316] rounded-lg flex items-center justify-center">
                                 <span className="text-white font-bold text-xl">UC</span>
                             </div>
                             <span className="text-gray-900 font-bold text-xl hidden sm:block">
@@ -35,7 +35,7 @@ export default function Navbar() {
                             <a
                                 key={link.name}
                                 href={link.href}
-                                className="text-gray-700 hover:text-[#0770e3] px-4 py-2 text-sm font-semibold transition-colors duration-200"
+                                className="text-gray-700 hover:text-[#f97316] px-4 py-2 text-sm font-semibold transition-colors duration-200"
                             >
                                 {link.name}
                             </a>
@@ -45,9 +45,9 @@ export default function Navbar() {
                     {/* Right side buttons */}
                     <div className="flex items-center space-x-2">
 
-                        {/* Sign In Button */}
-                        <button className="hidden md:block px-4 py-2 text-[#0770e3] font-semibold hover:bg-gray-50 rounded-lg transition-colors">
-                            Sign in
+                        {/* Login Button */}
+                        <button className="hidden md:block px-4 py-2 text-[#f97316] font-semibold hover:bg-gray-50 rounded-lg transition-colors">
+                            Login
                         </button>
 
                         {/* Profile Dropdown */}
@@ -56,7 +56,7 @@ export default function Navbar() {
                                 onClick={toggleProfile}
                                 className="flex items-center space-x-2 px-3 py-2 hover:bg-gray-50 rounded-lg transition-colors"
                             >
-                                <div className="w-8 h-8 bg-[#0770e3] rounded-full flex items-center justify-center">
+                                <div className="w-8 h-8 bg-[#f97316] rounded-full flex items-center justify-center">
                                     <span className="text-white text-sm font-semibold">JD</span>
                                 </div>
                             </button>
@@ -108,7 +108,7 @@ export default function Navbar() {
                                 <a
                                     key={link.name}
                                     href={link.href}
-                                    className="block text-gray-700 hover:text-[#0770e3] hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors"
+                                    className="block text-gray-700 hover:text-[#f97316] hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors"
                                 >
                                     {link.name}
                                 </a>

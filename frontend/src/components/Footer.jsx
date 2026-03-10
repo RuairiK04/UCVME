@@ -7,7 +7,7 @@ export default function Footer() {
                     <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
                         {/* Logo */}
                         <div className="flex items-center space-x-2">
-                            <div className="w-8 h-8 bg-[#0770e3] rounded-lg flex items-center justify-center">
+                            <div className="w-8 h-8 bg-[#f97316] rounded-lg flex items-center justify-center">
                                 <span className="text-white font-bold text-lg">UC</span>
                             </div>
                             <span className="text-gray-900 font-semibold text-lg">
@@ -17,13 +17,13 @@ export default function Footer() {
 
                         {/* Links */}
                         <div className="flex gap-6 text-sm">
-                            <a href="#features" className="text-gray-600 hover:text-[#0770e3] transition-colors">
+                            <a href="#features" className="text-gray-600 hover:text-[#f97316] transition-colors">
                                 Features
                             </a>
-                            <a href="#learn" className="text-gray-600 hover:text-[#0770e3] transition-colors">
+                            <a href="#learn" className="text-gray-600 hover:text-[#f97316] transition-colors">
                                 Learn More
                             </a>
-                            <a href="#support" className="text-gray-600 hover:text-[#0770e3] transition-colors">
+                            <a href="#support" className="text-gray-600 hover:text-[#f97316] transition-colors">
                                 Support
                             </a>
                         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
                             href="https://instagram.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="w-9 h-9 bg-white border border-gray-300 hover:border-[#0770e3] rounded-lg flex items-center justify-center transition-all duration-200"
+                            className="w-9 h-9 bg-white border border-gray-300 hover:border-[#f97316] rounded-lg flex items-center justify-center transition-all duration-200"
                             aria-label="Instagram"
                         >
                             <svg className="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@ export default function Footer() {
                             href="https://x.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="w-9 h-9 bg-white border border-gray-300 hover:border-[#0770e3] rounded-lg flex items-center justify-center transition-all duration-200"
+                            className="w-9 h-9 bg-white border border-gray-300 hover:border-[#f97316] rounded-lg flex items-center justify-center transition-all duration-200"
                             aria-label="X"
                         >
                             <svg className="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
@@ -62,7 +62,7 @@ export default function Footer() {
                             href="https://linkedin.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="w-9 h-9 bg-white border border-gray-300 hover:border-[#0770e3] rounded-lg flex items-center justify-center transition-all duration-200"
+                            className="w-9 h-9 bg-white border border-gray-300 hover:border-[#f97316] rounded-lg flex items-center justify-center transition-all duration-200"
                             aria-label="LinkedIn"
                         >
                             <svg className="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">

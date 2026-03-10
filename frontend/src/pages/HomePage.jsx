@@ -13,31 +13,40 @@ export default function HomePage() {
                         {/* Left side - Text */}
                         <div className="text-center lg:text-left">
                             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-                                Welcome to{' '}
-                                <span className="text-[#0770e3]">
-                                    UCVME
+                                Create Your{' '}
+                                <span className="text-[#f97316]">
+                                    Video CV
                                 </span>
                             </h1>
-                            <p className="text-xl text-gray-600 mb-8">
-                                Share your professional expertise with the world
+                            <p className="text-xl sm:text-2xl text-gray-600 mb-4 leading-relaxed">
+                                Show who you really are through personality-based video
                             </p>
-                            <button className="px-8 py-4 bg-[#0770e3] hover:bg-[#055bb5] text-white text-lg font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-200">
-                                Get Started
-                            </button>
+                            <p className="text-lg text-gray-500 mb-8">
+                                Your personal snapshot. Your story. Your unique way of connecting with the world.
+                            </p>
+                            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                                <button className="px-8 py-4 bg-[#f97316] hover:bg-[#ea580c] text-white text-lg font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-200">
+                                    Create Your Video CV
+                                </button>
+                                <button className="px-8 py-4 bg-white border-2 border-gray-300 hover:border-[#f97316] text-gray-900 text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-all duration-200">
+                                    Watch Demo
+                                </button>
+                            </div>
                         </div>
 
                         {/* Right side - Icon/Image */}
                         <div className="flex justify-center lg:justify-end">
                             <div className="relative">
                                 {/* Main card container */}
-                                <div className="relative w-72 h-72 sm:w-96 sm:h-96 bg-gradient-to-br from-[#0770e3] to-[#055bb5] rounded-3xl flex items-center justify-center shadow-2xl">
+                                <div className="relative w-72 h-72 sm:w-96 sm:h-96 bg-gradient-to-br from-[#f97316] to-[#ea580c] rounded-3xl flex items-center justify-center shadow-2xl">
                                     {/* Decorative floating cards */}
                                     <div className="absolute -top-4 -right-4 w-24 h-24 bg-white rounded-2xl shadow-lg transform rotate-12"></div>
                                     <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-white/90 rounded-2xl shadow-lg transform -rotate-6"></div>
                                     
-                                    {/* Center icon - Pencil/Design tool */}
-                                    <svg className="w-32 h-32 sm:w-40 sm:h-40 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                    {/* Center icon - Video camera representing video CV */}
+                                    <svg className="w-32 h-32 sm:w-40 sm:h-40 text-white" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M4 6C4 4.89543 4.89543 4 6 4H14C15.1046 4 16 4.89543 16 6V18C16 19.1046 15.1046 20 14 20H6C4.89543 20 4 19.1046 4 18V6Z" />
+                                        <path d="M18 8.5L21.5528 6.72361C22.2177 6.39116 23 6.87465 23 7.61803V16.382C23 17.1253 22.2177 17.6088 21.5528 17.2764L18 15.5V8.5Z" />
                                     </svg>
                                 </div>
                             </div>
@@ -48,35 +57,35 @@ export default function HomePage() {
                     <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6">
                         {/* Feature 1 */}
                         <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
-                            <div className="w-12 h-12 bg-[#0770e3] rounded-xl flex items-center justify-center mb-4">
+                            <div className="w-12 h-12 bg-[#f97316] rounded-xl flex items-center justify-center mb-4">
                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-bold text-gray-900 mb-2">Fast & Easy</h3>
-                            <p className="text-gray-600 text-sm">Find the right person for the job</p>
+                            <h3 className="text-lg font-bold text-gray-900 mb-2">Video-First</h3>
+                            <p className="text-gray-600 text-sm">Create personality-based videos that showcase the real you - not just words on paper</p>
                         </div>
 
                         {/* Feature 2 */}
                         <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
-                            <div className="w-12 h-12 bg-[#0770e3] rounded-xl flex items-center justify-center mb-4">
+                            <div className="w-12 h-12 bg-[#f97316] rounded-xl flex items-center justify-center mb-4">
                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-bold text-gray-900 mb-2">Over 100,000 daily users</h3>
-                            <p className="text-gray-600 text-sm">UCVME is rated 1st for website of the year</p>
+                            <h3 className="text-lg font-bold text-gray-900 mb-2">Your Personal Snapshot</h3>
+                            <p className="text-gray-600 text-sm">Express your unique personality and let your authentic self shine through</p>
                         </div>
 
                         {/* Feature 3 */}
                         <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
-                            <div className="w-12 h-12 bg-[#0770e3] rounded-xl flex items-center justify-center mb-4">
+                            <div className="w-12 h-12 bg-[#f97316] rounded-xl flex items-center justify-center mb-4">
                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-bold text-gray-900 mb-2">Share Anywhere</h3>
-                            <p className="text-gray-600 text-sm">Export and share your personal CV across all platforms</p>
+                            <h3 className="text-lg font-bold text-gray-900 mb-2">Easy Sharing</h3>
+                            <p className="text-gray-600 text-sm">Share your video CV instantly with a simple link - perfect for job applications and networking</p>
                         </div>
                     </div>
                 </div>
