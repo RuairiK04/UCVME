@@ -11,10 +11,8 @@ export default function Navbar() {
 
     const navLinks = [
         { name: 'Home', href: '#home' },
-        { name: 'Courses', href: '#courses' },
-        { name: 'Live Classes', href: '#live' },
-        { name: 'Resources', href: '#resources' },
-        { name: 'Community', href: '#community' },
+        { name: 'Create', href: '#create' },
+        { name: 'Designs', href: '#designs' },
     ];
 
     return (
@@ -28,7 +26,7 @@ export default function Navbar() {
                                 <span className="text-white font-bold text-xl">UC</span>
                             </div>
                             <span className="text-white font-bold text-xl hidden sm:block">
-                                Global Classroom
+                                UCVME
                             </span>
                         </a>
                     </div>
