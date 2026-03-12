@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 
 const videoSchema = new mongoose.Schema(
   {
-    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, index: true },
     videoUrl: { type: String, required: true },
-    uploadedAt: { type: Date, default: Date.now },
+    cloudinaryPublicId: { type: String, required: true },
   },
-  { timestamps: false }
+  { timestamps: true }
 );
 
 module.exports = mongoose.model('Video', videoSchema);
